@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+.pic-select{
+	margin-left: 30px;
+}
+
+.container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    width: 60%;
+    height: 555px;
+    margin: auto; /* 상위 요소에 대해 수평 중앙 정렬 */
+}
+
+.pic-container{
+	border-style: solid;
+	border-color: black;
+	width:60%;
+	height: 95%;
+	margin: 5px 5px;
+}
+
+.info-container{
+    display: flex; /* Flexbox 레이아웃 사용 */
+    flex-direction: column; /* 자식 요소를 세로 방향으로 정렬 */
+    border-style: solid;
+    border-color: black;
+    width: 40%;
+    height: 95%;
+    margin: 5px 5px;
+}
+
+.info-container-2{
+    border-style: solid;
+    border-color: black;
+    width: 100%; /* 너비를 부모 컨테이너에 맞게 조정 */
+    flex: 1; /* 유동적인 높이 조정 */
+    margin: 5px 5px;
+}
+
+.find-container{
+    border-style: solid;
+    border-color: black;
+    width: 100%; /* 너비를 부모 컨테이너에 맞게 조정 */
+    flex: 2; /* 유동적인 높이 조정 */
+    margin: 5px 5px;
+}
+
+.pic-container img {
+    width: 100%;  /* 이미지의 너비를 div의 너비에 맞춥니다 */
+    height: auto; /* 이미지의 높이를 비율에 맞게 자동으로 조정합니다 */
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Yeongdeok Sea';
+    src: url('../fonts/Yeongdeok Sea.ttf') format('truetype');
+}
+
+.body-font {
+    font-family: 'Yeongdeok Sea', sans-serif;
+}

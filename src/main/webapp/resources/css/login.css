@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    font-size: 14px;
+    margin-top: -30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 300px; /* 로고의 최대 너비를 200px로 설정 */
+    height: auto; /* 높이는 자동으로 조절 */
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.login-wrapper {
+    width: 400px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.login-wrapper > h2{
+    font-size: 24px;
+    color: #6A24FE;
+    margin-bottom: 20px;
+}
+
+#login-form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    margin-bottom: 10px;
+}
+
+#login-form > input::placeholder{
+    color: #D2D2D2;
+}
+
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #6A24FE;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#login-form > input[type="checkbox"]{
+    display: none;
+}
+
+#login-form > label{
+    color: #999999;
+}
+
+#login-form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    background-image: url("checkbox.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#login-form input[type="checkbox"]:checked + label{
+    background-image: url("checkbox-active.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
